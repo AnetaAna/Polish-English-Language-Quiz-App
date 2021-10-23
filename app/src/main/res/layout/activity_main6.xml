@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:background="@android:color/holo_orange_light"
+        tools:context=".MainActivity0">
+        <ScrollView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titlegrammar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="GRAMMAR"
+            android:textColor="@color/purple_700"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textgrammar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Write a missing word."
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. " /> <!-- Just for short answer, should be put elsewhere -->
+            android:textColor="@color/black"
+            />
+
+            <EditText
+                android:id="@+id/gramedit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/gramoneone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" na imię Paweł." /> <!-- Just for short answer, should be put elsewhere -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramonetwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(My name is Paweł)" />
+
+            <Button
+                android:id="@+id/checkone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="2dp"
+                android:text="check"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramtwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Ile " /> <!-- Just for short answer, should be put elsewhere -->
+            android:textColor="@color/black"
+            />
+
+            <EditText
+                android:id="@+id/gramedittwo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/gramtwotwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" lat? " />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+
+            <TextView
+                android:id="@+id/gramtwob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(How old are you?)" />
+
+            <Button
+                android:id="@+id/checktwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="2dp"
+                android:text="check"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramthree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Jak " /> <!-- Just for short answer, should be put elsewhere -->
+            android:textColor="@color/black"
+            />
+
+            <EditText
+                android:id="@+id/grameditthree"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/gramtwhreethree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" masz?" /> <!-- Just for short answer, should be put elsewhere -->  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramtwhreeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(How are you?)" />
+
+            <Button
+                android:id="@+id/checkthree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="2dp"
+                android:text="check"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramfour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. " /> <!-- Just for short answer, should be put elsewhere -->
+            android:textColor="@color/black"
+            />
+
+            <EditText
+                android:id="@+id/grameditfour"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/gramfourfour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" pochodzisz?" /> <!-- Just for short answer, should be put elsewhere -->
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramfourb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Where are you from?)" />
+
+            <Button
+                android:id="@+id/checkfour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="2dp"
+                android:text="check"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramfive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Gdzie " /> <!-- Just for short answer, should be put elsewhere -->
+            android:textColor="@color/black"
+            />
+
+            <EditText
+                android:id="@+id/grameditfive"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/gramfivefive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ?" /> <!-- Just for short answer, should be put elsewhere -->  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramfiveb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Where do you live?)" />
+
+            <Button
+                android:id="@+id/checkfive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="2dp"
+                android:text="check"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramsix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Co ona " /> <!-- Just for short answer, should be put elsewhere -->
+            android:textColor="@color/black"
+            />
+
+            <EditText
+                android:id="@+id/grameditsix"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/gramsixsix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ?" /> <!-- Just for short answer, should be put elsewhere -->  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramsixb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(What is she doing?)" />
+
+            <Button
+                android:id="@+id/checksix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="2dp"
+                android:text="check"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramseven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. Oni " /> <!-- Just for short answer, should be put elsewhere -->
+            android:textColor="@color/black"
+            />
+
+            <EditText
+                android:id="@+id/grameditseven"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/gramsevenseven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" moją rodziną." /> <!-- Just for short answer, should be put elsewhere -->
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramsevenb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(They are my family.)" />
+
+            <Button
+                android:id="@+id/checkseven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="2dp"
+                android:text="check"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/grameight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8. " /> <!-- Just for short answer, should be put elsewhere -->
+            android:textColor="@color/black"
+            />
+
+            <EditText
+                android:id="@+id/gramediteight"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/grameighteight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" kota i psa." /> <!-- Just for short answer, should be put elsewhere -->
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/grameightb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(I have a cat and a dog.)" />
+
+            <Button
+                android:id="@+id/checkeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="2dp"
+                android:text="check"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramnine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9. Co lubisz " /> <!-- Just for short answer, should be put elsewhere -->
+            android:textColor="@color/black"
+            />
+
+            <EditText
+                android:id="@+id/grameditnine"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/gramninenine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" w czasie wolnym?" /> <!-- Just for short answer, should be put elsewhere -->
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramnineb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(What do you like to do during free time?)" />
+
+            <Button
+                android:id="@+id/checknine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="2dp"
+                android:text="check"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10. Wy wszyscy " /> <!-- Just for short answer, should be put elsewhere -->
+            android:textColor="@color/black"
+            />
+
+            <EditText
+                android:id="@+id/grameditten"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/gramtenten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" wspaniali. " /> <!-- Just for short answer, should be put elsewhere -->
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="horizontal"
+            tools:context=".MainActivity0">
+
+            <TextView
+                android:id="@+id/gramtenb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(You all are wonderful.)" />
+
+            <Button
+                android:id="@+id/checkten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="2dp"
+                android:text="check"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/gramback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text="Back to start"
+            android:textSize="16dp" />
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

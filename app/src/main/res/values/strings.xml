@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LanguageQuiz</string>
+    <string name="where_do_you_live">\? (Where do you live?)</string>
+    <string name="what_is_she_doing">\? (What is she doing?)</string>
+</resources>

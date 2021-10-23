@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/holo_purple"
+    tools:context=".MainActivity0"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="LANGUAGE QUIZ APP"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/flags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="300dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/flags"
+        tools:visibility="visible"
+        android:background="#000000"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="ENGLISH-POLISH"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="In this quiz you have a possibility to try your knowledge of Polish language. In the vocabulary part you'll see English words, and your task will be to match them to their Polish counterparts. If you don't know, just try to guess - you can try as many times as you want. In the the grammar part you have to write manually the missing word. Have fun!"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="VOCABULARY QUIZ"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+         />
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="GRAMMAR TEST"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
